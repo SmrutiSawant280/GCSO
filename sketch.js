@@ -1,10 +1,10 @@
-var object1, object2, object3 ,object4 ,object5;
+var object1, object2, object3 ,object4 ,object5,object6;
 
 
 function setup() {
 createCanvas(800,400);
 
-
+  object6 = createSprite(400,400,50,50);
   object1 = createSprite(400, 200, 50, 50);
   object1.shapeColor = "yellow";
   object2 = createSprite(600, 200, 50, 50);
